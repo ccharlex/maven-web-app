@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.17.20:8081/repository/webapp_release/</url>
+	      <url>http://172.31.23.50:3500/repository/Td_Backtosch_Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.17.20:8081/repository/webapp_snapshot/</url>
+	      <url>http://172.31.23.50:3500/repository/Td_backtosch_Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
