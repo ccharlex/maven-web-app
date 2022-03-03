@@ -1,0 +1,41 @@
+//This is a scripted pipeline
+node('')
+{
+    def MavenHomeDirectory = tool name: "maven_3.8.4"
+    stage('1.Initiation'){
+        sh "echo Start of Webapp deployment pipeline"
+        sh "echo deployment started"
+    }
+    stage('2.GitClone'){
+        git credentialsId: 'Github-Cred', url: 'https://github.com/Obelomo/maven-web-app.git'
+    }
+    stage('3.BuildPackage'){
+        sh "echo Build Package start"
+        sh "${MavenHomeDirectory}/bin/mvn package"
+    }
+    stage('4.CodeQuality'){
+        sh "echo running quality test"
+        sh "${MavenHomeDirectory}/bin/mvn sonar:sonar"
+    }
+    stage('5.CreatingArtifacts'){
+        sh "echo artifacts backup on Nexus"
+        sh "${MavenHomeDirectory}/bin/mvn deploy"
+    }
+    stage('6.DeployToStaging'){
+        sh "echo Deploying to Tomcat App server"
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Cred', path: '', url: 'http://3.144.22.34:8080/')], contextPath: null, war: 'target/*war'
+    }
+    stage('7.DeploytoUAT'){
+        sh "echo deploying to UAT"
+        timeout(time:5, unit:'DAYS'){
+            input message:'Approval for Production'
+        }
+    }
+    stage('8.DeploytoProd'){
+        sh "echo Deploying to Production"
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Cred', path: '', url: 'http://3.144.22.34:8080/')], contextPath: null, war: 'target/*war'
+    }
+    stage('9.Notification'){
+        slackSend channel: 'jenkins-build', message: 'Pipeline Created'
+    }
+}
