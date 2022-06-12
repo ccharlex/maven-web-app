@@ -16,7 +16,7 @@
 	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY</h2>
 <hr>
 <h2 align="right"> Good and Bad Children. 
-	If you no get money, hide your face</h2>
+	If you no get money, hide your face... Me and My Baby</h2>
 <hr>
 <div style="text-align: center;">
 	<span>
