@@ -97,13 +97,13 @@
             <repository>
               <id>nexus</id>
               <name>Acada Learning Releases Nexus Repository</name>
-              <url>http://99.255.77.46:9092/repository/firstapp-release/</url>
+              <url>http://localhost:9092/repository/firstapp-release/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>Acada Learning Snapshot Nexus Repository</name>
-              <url>http://99.255.77.46:9092/repository/firstapp-snapshot/</url>
+              <url>http://localhost:9092/repository/firstapp-snapshot/</url>
             </snapshotRepository>
 
         </distributionManagement>
