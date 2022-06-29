@@ -5,7 +5,7 @@
         <groupId>com.mt</groupId>
         <artifactId>maven-web-application</artifactId>
         <packaging>war</packaging>
-        <version>3.0.0.1-RELEASE</version>
+        <version>3.0.0.RELEASE</version>
 
         <name>maven-web-application</name>
 
@@ -97,12 +97,12 @@
             <repository>
               <id>nexus</id>
               <name>Acada Learning Releases Nexus Repository</name>
-              <url>http://99.255.77.46:9092/repository/firstapp-release/</url>
+              <url>http://192.168.0.100:9092/repository/firstapp-release/</url>
             </repository>
             <snapshotRepository>
               <id>nexus</id>
               <name>Acada Learning Snapshot Nexus Repository</name>
-              <url>http://99.255.77.46:9092/repository/firstapp-snapshot/</url>
+              <url>http://192.168.0.100:9092/repository/firstapp-snapshot/</url>
             </snapshotRepository>
         </distributionManagement>
 
