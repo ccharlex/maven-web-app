@@ -13,7 +13,11 @@
 <h2 align="center"> Welcome to ACADA Learning. 
 	ACADA Learning is a an ideal online training  platform for DevOps and Cloud Engineers. 
 	We offer interview preparations and job assistance.
-	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY</h2>
+	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY
+	He that is down needs fear no fall
+	He that is low no pride
+	He that is humble ever shall
+	Have God to be His Guide</h2>
 <hr>
 <h2 align="right"> Good and Bad Children. 
 	Oh yeah, If you no get money, hide your face... Me and My Baby</h2>
