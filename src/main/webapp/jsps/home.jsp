@@ -17,7 +17,7 @@
 <hr>
 <h2 align="right"> Good and Bad Children. 
 	Oh yeah, If you no get money, hide your face... Me and My Baby</h2>
-<hr>
+</hr>
 <div style="text-align: center;">
 	<span>
 		<img src="images/log4.png" alt="" width="100">
