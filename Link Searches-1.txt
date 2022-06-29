@@ -1,0 +1,71 @@
+How to use bridged networking with libvirt and KVM
+https://linuxconfig.org/how-to-use-bridged-networking-with-libvirt-and-kvm
+
+
+
+How to setup SonaType Nexus 3 on Redhat Enterprise Linux in EC2? Nexus installation on RedHat Linux - Install Nexus on RedHat Linux
+https://www.cidevops.com/2017/09/how-to-setup-sonatype-nexus-on-redhat.html
+
+
+Can’t run nexus as nexus user on Amazon Linux 2
+https://community.sonatype.com/t/cant-run-nexus-as-nexus-user-on-amazon-linux-2/4023
+
+
+Run as a Service - Nexus
+https://help.sonatype.com/repomanager3/installation-and-upgrades/run-as-a-service?_ga=2.14230647.1929130957.1655909201-36810010.1655236815#RunasaService-PIDFile
+
+
+
+How to change your hostname in Linux
+https://www.redhat.com/sysadmin/change-hostname-linux
+
+
+
+Opening a port on Linux
+https://www.journaldev.com/34113/opening-a-port-on-linux
+
+
+Understanding Port Forwarding – Beginners Guide
+https://stevessmarthomeguide.com/understanding-port-forwarding/
+
+
+How To Set Up & Configure TCP/IP Files On Linux (TCP/IP Settings For Linux)
+https://helpdeskgeek.com/linux-tips/how-to-set-up-configure-tcp-ip-files-on-linux-tcp-ip-settings-for-linux/
+
+
+Chapter 2. Getting started with virtualization
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_virtualization/getting-started-with-virtualization-in-rhel-8_configuring-and-managing-virtualization
+
+
+
+What Is Port Forwarding? - A Beginner's Guide
+https://learn.g2.com/port-forwarding
+
+
+
+Chapter 20. Feature support and limitations in RHEL 8 virtualization
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_virtualization/feature-support-and-limitations-in-rhel-8-virtualization_configuring-and-managing-virtualization#recommended-features-in-rhel-8-virtualization_feature-support-and-limitations-in-rhel-8-virtualization
+
+
+Creating and starting a VM instance - Google Cloud
+https://cloud.google.com/compute/docs/instances/create-start-instance
+
+
+Cloud NAT overview - Google Cloud
+https://cloud.google.com/nat/docs/overview
+
+
+Create a Linux VM instance in Compute Engine - Google Cloud
+https://cloud.google.com/compute/docs/create-linux-vm-instance
+
+
+[WAN] Virtual Server/ Port Forwarding Introduction
+https://www.asus.com/support/FAQ/1011721/#:~:text=Virtual%20Server%20%2F%20Port%20forwarding%20allows,set%20the%20port%20forwarding%20setting.
+
+
+How to Forward Ports to a Virtual Machine and Use It as a Server
+https://www.howtogeek.com/122641/how-to-forward-ports-to-a-virtual-machine-and-use-it-as-a-server/
+
+
+Bash For Loop Examples
+https://www.cyberciti.biz/faq/bash-for-loop/
